@@ -1,0 +1,10 @@
+{
+	"name": "KVlinkedservice",
+	"properties": {
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://KVRGtraining.vault.azure.net/"
+		}
+	}
+}
