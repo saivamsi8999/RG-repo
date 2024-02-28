@@ -1,0 +1,17 @@
+{
+	"name": "ls_to_storage",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "KVlinkedservice",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "KVadlsconnectionsrting"
+			}
+		}
+	}
+}
